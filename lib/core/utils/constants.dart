@@ -1,0 +1,10 @@
+const String baseUrl = "https://api.themoviedb.org/3";
+const String apiKey = "0663bbdadbb52eeaa46552cd79791986";
+const String appTitle = "Movie";
+const String preImageUrl = "http://image.tmdb.org/t/p/w500";
+const String upcoming = "upcoming";
+const String topRated = "top_rated";
+const String nowPlaying = "now_playing";
+const String popular = "popular";
+const String kMoviesTableName = 'movies_table';
+const String kDatabaseName = 'app_database.db';

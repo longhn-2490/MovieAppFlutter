@@ -1,0 +1,7 @@
+// **************************************************************************
+// DaoGenerator
+// **************************************************************************
+
+mixin _$MovieDaoMixin on DatabaseAccessor<AppDatabase> {
+  $MovieTableTable get movieTable => attachedDatabase.movieTable;
+}
